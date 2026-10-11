@@ -1,0 +1,113 @@
+{
+  "title": "Millersville Storm Prep",
+  "version": 1,
+  "note": "Hurricane / storm / outage prep board for [home address], Millersville MD 21108. BGE outage mindset. Progress in localStorage. EXAMPLE timeline only.",
+  "home": {
+    "address": "[home address]",
+    "city": "Millersville",
+    "state": "MD",
+    "zip": "21108",
+    "utility": "BGE"
+  },
+  "household": [
+    {"id": "boyd", "name": "Boyd", "role": "Adult"},
+    {"id": "miranda", "name": "Miranda", "role": "Adult"},
+    {"id": "char", "name": "Charlotte (Char)", "age": 13, "role": "Kid", "notes": "SJE · Aspire soccer"},
+    {"id": "vic", "name": "Victor (Vic)", "age": 11, "role": "Kid", "notes": "API baseball · Green Hornets soccer"}
+  ],
+  "categories": [
+    {
+      "id": "water-food",
+      "label": "Water & food",
+      "emoji": "💧",
+      "items": [
+        {"id": "wf-water", "label": "Drinking water (1+ gal/person/day × 3 days)"},
+        {"id": "wf-nonperish", "label": "Non-perishable meals / snacks"},
+        {"id": "wf-canopener", "label": "Manual can opener"},
+        {"id": "wf-cooler", "label": "Cooler + ice packs ready"},
+        {"id": "wf-freezer", "label": "Freezer: keep closed; full = stays cold longer"},
+        {"id": "wf-fridge", "label": "Fridge: minimize opens during outage"}
+      ]
+    },
+    {
+      "id": "light-power",
+      "label": "Light & power",
+      "emoji": "🔦",
+      "items": [
+        {"id": "lp-flash", "label": "Flashlights (tested) — one per person"},
+        {"id": "lp-batteries", "label": "Spare batteries (AA/AAA)"},
+        {"id": "lp-lantern", "label": "Battery lantern / camping light"},
+        {"id": "lp-banks", "label": "Phone power banks charged"},
+        {"id": "lp-cables", "label": "Phone / tablet cables"},
+        {"id": "lp-gen", "label": "Generator notes: fuel, cords, outdoor-only (if owned)"},
+        {"id": "lp-candles", "label": "Avoid open flame indoors if possible"}
+      ]
+    },
+    {
+      "id": "meds-health",
+      "label": "Meds & health",
+      "emoji": "💊",
+      "items": [
+        {"id": "mh-meds", "label": "Prescriptions (7-day buffer if possible)"},
+        {"id": "mh-firstaid", "label": "First-aid kit stocked"},
+        {"id": "mh-otc", "label": "OTC: pain, allergy, stomach"},
+        {"id": "mh-glasses", "label": "Glasses / contacts extras"}
+      ]
+    },
+    {
+      "id": "kids",
+      "label": "Char & Vic",
+      "emoji": "👨‍👧‍👦",
+      "items": [
+        {"id": "k-backpack", "label": "Kids’ go-bag clothes (1–2 days each)"},
+        {"id": "k-comfort", "label": "Comfort item / book / small game (no power needed)"},
+        {"id": "k-chargers", "label": "Their devices + cables charged"},
+        {"id": "k-school", "label": "School / sports cancel-check plan"},
+        {"id": "k-meds", "label": "Any kid meds / inhalers if applicable"},
+        {"id": "k-talk", "label": "Talk through storm plan calmly before winds hit"}
+      ]
+    },
+    {
+      "id": "gobag",
+      "label": "Go-bag & docs",
+      "emoji": "🎒",
+      "items": [
+        {"id": "gb-ids", "label": "IDs / insurance cards (copies OK)"},
+        {"id": "gb-cash", "label": "Small cash (ATMs may be down)"},
+        {"id": "gb-keys", "label": "Spare house / car keys"},
+        {"id": "gb-clothes", "label": "Change of clothes + rain gear"},
+        {"id": "gb-toilet", "label": "Toiletries / hygiene"},
+        {"id": "gb-list", "label": "Emergency contact list printed"}
+      ]
+    },
+    {
+      "id": "home",
+      "label": "Home & yard",
+      "emoji": "🏠",
+      "items": [
+        {"id": "hm-patio", "label": "Secure patio furniture / toys"},
+        {"id": "hm-gutters", "label": "Clear drains / downspouts if safe"},
+        {"id": "hm-vehicles", "label": "Cars fueled + parked clear of trees if possible"},
+        {"id": "hm-fridgephoto", "label": "Photo fridge/freezer contents (insurance)"},
+        {"id": "hm-bge", "label": "Know BGE outage report path before storm"}
+      ]
+    }
+  ],
+  "timeline": [
+    {"id": "t-72", "hours": "-72h", "label": "72 hours out", "example": true, "tasks": ["Check forecasts (NWS)", "Top off water & meds", "Charge all banks", "Confirm family plan"]},
+    {"id": "t-48", "hours": "-48h", "label": "48 hours out", "example": true, "tasks": ["Secure yard", "Fill vehicles", "Freeze extra water bottles", "Print contact list"]},
+    {"id": "t-24", "hours": "-24h", "label": "24 hours out", "example": true, "tasks": ["Final fridge/freezer check", "Devices at 100%", "Go-bags by door", "Kids briefed"]},
+    {"id": "t-0", "hours": "Landfall / peak", "label": "During storm", "example": true, "tasks": ["Stay indoors", "Minimize fridge opens", "Use flashlights not candles", "Listen for official alerts"]},
+    {"id": "t-after", "hours": "After", "label": "After peak", "example": true, "tasks": ["Check for hazards before going out", "Report BGE outage if needed", "Toss unsafe food", "Update family"]}
+  ],
+  "freezerRules": [
+    "Keep freezer closed — a full freezer stays cold ~48h; half-full ~24h (rule of thumb).",
+    "Fridge: about 4 hours if unopened.",
+    "When in doubt, throw it out — especially meat, dairy, leftovers.",
+    "Frozen water bottles help as ice packs when power returns slowly."
+  ],
+  "links": [
+    {"label": "BGE (outage & account)", "url": "https://www.bge.com", "note": "Public utility site — use for outage map / report when needed"},
+    {"label": "NWS Baltimore/Washington (LWX)", "url": "https://www.weather.gov/lwx", "note": "Official National Weather Service forecast office"}
+  ]
+}

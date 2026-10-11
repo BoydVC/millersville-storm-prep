@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Millersville Storm Prep · Springbloom</title>
+<meta name="theme-color" content="#0f172a">
+<meta name="description" content="Hurricane/storm and outage prep board for [home address], Millersville MD — BGE mindset, go-bag, freezer rules. Offline TokenMax build.">
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+
+<header class="top no-print">
+  <div class="brand">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 48 48" width="44" height="44">
+        <defs>
+          <linearGradient id="sg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#38bdf8"/>
+            <stop offset="1" stop-color="#f59e0b"/>
+          </linearGradient>
+        </defs>
+        <rect x="6" y="8" width="36" height="32" rx="8" fill="#0f172a" stroke="url(#sg)" stroke-width="2.4"/>
+        <path d="M12 30c4-8 8-10 12-6 3 3 6 2 10-2 2 6-1 12-8 14-6 2-12-1-14-6z" fill="#38bdf8" opacity="0.85"/>
+        <path d="M28 14l2 6 6 1-5 4 2 6-5-3-5 3 2-6-5-4 6-1z" fill="#fbbf24" stroke="#f59e0b" stroke-width="0.6"/>
+      </svg>
+    </div>
+    <div>
+      <h1>Millersville Storm Prep</h1>
+      <p class="tag">777 Springbloom · BGE outage mindset · go-bag</p>
+    </div>
+  </div>
+  <div class="top-actions">
+    <span class="pill soft" id="progressPill">0%</span>
+    <button type="button" class="btn ghost sm" id="btnPrint" title="Print checklist">🖨 Print</button>
+  </div>
+</header>
+
+<nav class="tabs no-print" role="tablist" aria-label="Storm prep screens">
+  <button class="tab active" data-view="prep" role="tab" aria-selected="true">✅ Prep</button>
+  <button class="tab" data-view="timeline" role="tab" aria-selected="false">⏱ Timeline</button>
+  <button class="tab" data-view="rules" role="tab" aria-selected="false">🧊 Freezer</button>
+  <button class="tab" data-view="links" role="tab" aria-selected="false">🔗 Links</button>
+  <button class="tab" data-view="print" role="tab" aria-selected="false">🖨 Print</button>
+  <button class="tab" data-view="about" role="tab" aria-selected="false">About</button>
+</nav>
+
+<main>
+  <section id="view-prep" class="view active" role="tabpanel"></section>
+  <section id="view-timeline" class="view" role="tabpanel"></section>
+  <section id="view-rules" class="view" role="tabpanel"></section>
+  <section id="view-links" class="view" role="tabpanel"></section>
+
+  <section id="view-print" class="view" role="tabpanel">
+    <div class="print-toolbar no-print">
+      <div>
+        <h2 class="view-title">Print prep sheet</h2>
+        <p class="lede">One-page checklist for the fridge / go-bag run. AirPrint from Safari / Chrome.</p>
+      </div>
+      <button type="button" class="btn primary" id="btnDoPrint">Print now</button>
+    </div>
+    <div id="printSheets" class="print-sheets"></div>
+  </section>
+
+  <section id="view-about" class="view" role="tabpanel">
+    <div class="about-wrap">
+      <div class="panel">
+        <h2 class="view-title">About this board</h2>
+        <p class="lede">Storm / outage prep for <strong>[home address], Millersville MD 21108</strong> — BGE mindset. Kids: <strong>Charlotte (~13)</strong> and <strong>Victor (~11)</strong> only.</p>
+        <ul class="about-list">
+          <li>Checklist progress saves in <code>localStorage</code> on this device.</li>
+          <li>Outage timeline is an <strong>EXAMPLE template</strong> — adjust to real NWS timing.</li>
+          <li>Public links only: BGE and NWS LWX (no invented URLs).</li>
+          <li>Generator notes are UI reminders — outdoor-only / safe-use rules apply.</li>
+        </ul>
+        <div class="about-actions no-print">
+          <button type="button" class="btn ghost" id="btnExport">Export save JSON</button>
+          <button type="button" class="btn ghost danger" id="btnReset">Reset checklist</button>
+          <button type="button" class="btn ghost danger" id="btnResetAll">Reset all data</button>
+        </div>
+        <p class="hint" id="aboutHint"></p>
+      </div>
+      <div class="panel soft-panel">
+        <h3>Hash routes</h3>
+        <p class="mono">#prep · #timeline · #rules · #links · #print · #about</p>
+        <h3>TokenMax</h3>
+        <p class="hint">Offline single-file burn build · port 4316 · not emergency advice — verify with officials.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot no-print">
+  <span>777 Springbloom · Millersville MD · Char &amp; Vic</span>
+  <span id="footPts"></span>
+</footer>
+
+<script>
+window.__PREP__ = /*__PREP__*/ null /*__/PREP__*/;
+</script>
+<script>/*__APP__*/</script>
+</body>
+</html>
