@@ -68,8 +68,8 @@
           </div>
         </div>
         <div class="panel soft-panel">
-          <h3 style="margin:0 0 .4rem">Char &amp; Vic</h3>
-          <p class="hint" style="margin:0">Ages ~13 / ~11. Go-bag clothes, charged devices, comfort item, calm talk-through before winds. Kids only: Charlotte and Victor.</p>
+          <h3 style="margin:0 0 .4rem">Alex &amp; Sam</h3>
+          <p class="hint" style="margin:0">Ages ~13 / ~11. Go-bag clothes, charged devices, comfort item, calm talk-through before winds. Kids only: Alex and Samuel.</p>
         </div>
       </div>
       <div class="cat-grid" id="catGrid"></div>`;
@@ -198,7 +198,7 @@
     root.innerHTML = `
       <div class="print-sheet">
         <h2>Storm Prep · ${esc(h.address)}, ${esc(h.city)}</h2>
-        <p class="sub">${p.done}/${p.total} ready · Char &amp; Vic · BGE outage mindset · EXAMPLE timeline separate</p>
+        <p class="sub">${p.done}/${p.total} ready · Alex &amp; Sam · BGE outage mindset · EXAMPLE timeline separate</p>
         ${cats}
       </div>`;
   }

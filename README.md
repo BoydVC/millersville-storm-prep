@@ -2,11 +2,11 @@
 
 Hurricane / storm / outage prep board for **[home address], Millersville MD 21108** — BGE outage mindset, go-bag, freezer rules, generator notes. TokenMax burn build.
 
-Kids: **Charlotte (~13)** and **Victor (~11)** only. Checklist progress in `localStorage`. EXAMPLE outage timeline. Public links: BGE + NWS LWX only.
+Kids: **Alex (~13)** and **Samuel (~11)** only. Checklist progress in `localStorage`. EXAMPLE outage timeline. Public links: BGE + NWS LWX only.
 
 ## Screens
 
-1. **Prep** — categorized checklist (water, light/power, meds, Char & Vic, go-bag, home)  
+1. **Prep** — categorized checklist (water, light/power, meds, Alex & Sam, go-bag, home)  
 2. **Timeline** — EXAMPLE −72h → after template  
 3. **Freezer** — fridge/freezer / generator reminders  
 4. **Links** — https://www.bge.com · https://www.weather.gov/lwx  
