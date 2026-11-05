@@ -1,12 +1,12 @@
-# Millersville Storm Prep
+# Lakeside Storm Prep
 
-Hurricane / storm / outage prep board for **[home address], Millersville MD 21108** — BGE outage mindset, go-bag, freezer rules, generator notes. TokenMax burn build.
+Hurricane / storm / outage prep board for **[home address], Lakeside MD 01234** — BGE outage mindset, go-bag, freezer rules, generator notes. TokenMax burn build.
 
-Kids: **Alex (~13)** and **Samuel (~11)** only. Checklist progress in `localStorage`. EXAMPLE outage timeline. Public links: BGE + NWS LWX only.
+Kids: **Riley (~13)** and **Jordan (~11)** only. Checklist progress in `localStorage`. EXAMPLE outage timeline. Public links: BGE + NWS LWX only.
 
 ## Screens
 
-1. **Prep** — categorized checklist (water, light/power, meds, Alex & Sam, go-bag, home)  
+1. **Prep** — categorized checklist (water, light/power, meds, Ri & Jo, go-bag, home)  
 2. **Timeline** — EXAMPLE −72h → after template  
 3. **Freezer** — fridge/freezer / generator reminders  
 4. **Links** — https://www.bge.com · https://www.weather.gov/lwx  
@@ -33,7 +33,7 @@ Offline single file: `dist/millersville-storm-prep.html`
 
 ---
 ## Repo notes
-- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Boyd's Grok Bot) on the Grok Bot box.
+- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Alex's Grok Bot) on the Grok Bot box.
 - **Run:** `./run.sh` (then open the localhost URL it prints).
 - Imported from `/workspace/tokenmax/millersville-storm-prep` on Oct 23, 2026. node_modules, virtualenvs, logs and files over 20 MB were left out.
 - Personal details (emails, phone numbers, home street address) were replaced with `[redacted-…]` placeholders.
