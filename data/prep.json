@@ -11,9 +11,9 @@
   },
   "household": [
     {"id": "boyd", "name": "Boyd", "role": "Adult"},
-    {"id": "miranda", "name": "Miranda", "role": "Adult"},
-    {"id": "char", "name": "Charlotte (Char)", "age": 13, "role": "Kid", "notes": "SJE · Aspire soccer"},
-    {"id": "vic", "name": "Victor (Vic)", "age": 11, "role": "Kid", "notes": "API baseball · Green Hornets soccer"}
+    {"id": "jordan", "name": "Jordan", "role": "Adult"},
+    {"id": "char", "name": "Alex (Alex)", "age": 13, "role": "Kid", "notes": "Northside Academy · Aspire soccer"},
+    {"id": "vic", "name": "Samuel (Sam)", "age": 11, "role": "Kid", "notes": "API baseball · Blue Comets soccer"}
   ],
   "categories": [
     {
@@ -56,7 +56,7 @@
     },
     {
       "id": "kids",
-      "label": "Char & Vic",
+      "label": "Alex & Sam",
       "emoji": "👨‍👧‍👦",
       "items": [
         {"id": "k-backpack", "label": "Kids’ go-bag clothes (1–2 days each)"},
