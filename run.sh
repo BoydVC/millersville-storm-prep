@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Millersville Storm Prep: build offline snapshot, then serve on 127.0.0.1:4316.
+# Lakeside Storm Prep: build offline snapshot, then serve on 127.0.0.1:4316.
 #   ./run.sh           build + serve
 #   ./run.sh --shots   build + screenshot + serve
 set -euo pipefail

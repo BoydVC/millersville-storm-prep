@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Millersville Storm Prep server — 127.0.0.1:4316."""
+"""Lakeside Storm Prep server — 127.0.0.1:4316."""
 import json
 import os
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -74,5 +74,5 @@ class H(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     httpd = ThreadingHTTPServer(("127.0.0.1", PORT), H)
-    print(f"Millersville Storm Prep http://127.0.0.1:{PORT}/")
+    print(f"Lakeside Storm Prep http://127.0.0.1:{PORT}/")
     httpd.serve_forever()

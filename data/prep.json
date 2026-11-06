@@ -1,19 +1,19 @@
 {
-  "title": "Millersville Storm Prep",
+  "title": "Lakeside Storm Prep",
   "version": 1,
-  "note": "Hurricane / storm / outage prep board for [home address], Millersville MD 21108. BGE outage mindset. Progress in localStorage. EXAMPLE timeline only.",
+  "note": "Hurricane / storm / outage prep board for [home address], Lakeside MD 01234. BGE outage mindset. Progress in localStorage. EXAMPLE timeline only.",
   "home": {
     "address": "[home address]",
-    "city": "Millersville",
+    "city": "Lakeside",
     "state": "MD",
     "zip": "21108",
     "utility": "BGE"
   },
   "household": [
-    {"id": "boyd", "name": "Boyd", "role": "Adult"},
-    {"id": "jordan", "name": "Jordan", "role": "Adult"},
-    {"id": "char", "name": "Alex (Alex)", "age": 13, "role": "Kid", "notes": "Northside Academy · Aspire soccer"},
-    {"id": "vic", "name": "Samuel (Sam)", "age": 11, "role": "Kid", "notes": "API baseball · Blue Comets soccer"}
+    {"id": "boyd", "name": "Alex", "role": "Adult"},
+    {"id": "miranda", "name": "Sam", "role": "Adult"},
+    {"id": "char", "name": "Riley (Ri)", "age": 13, "role": "Kid", "notes": "Lakeside Parish · Aspire soccer"},
+    {"id": "vic", "name": "Jordan (Jo)", "age": 11, "role": "Kid", "notes": "API baseball · Green Hornets soccer"}
   ],
   "categories": [
     {
@@ -56,7 +56,7 @@
     },
     {
       "id": "kids",
-      "label": "Alex & Sam",
+      "label": "Ri & Jo",
       "emoji": "👨‍👧‍👦",
       "items": [
         {"id": "k-backpack", "label": "Kids’ go-bag clothes (1–2 days each)"},

@@ -58,7 +58,7 @@
       <div class="hero-grid">
         <div class="panel">
           <h2 class="view-title">Storm &amp; outage board</h2>
-          <p class="lede">BGE-minded prep for the Boyd home. Checklist saves locally. Not a substitute for official alerts.</p>
+          <p class="lede">BGE-minded prep for the Rivera home. Checklist saves locally. Not a substitute for official alerts.</p>
           <p class="addr">${esc(h.address)}, ${esc(h.city)} ${esc(h.state)} ${esc(h.zip)} · ${esc(h.utility)}</p>
           <div class="people">${people}</div>
           <div class="stat-row">
@@ -68,8 +68,8 @@
           </div>
         </div>
         <div class="panel soft-panel">
-          <h3 style="margin:0 0 .4rem">Alex &amp; Sam</h3>
-          <p class="hint" style="margin:0">Ages ~13 / ~11. Go-bag clothes, charged devices, comfort item, calm talk-through before winds. Kids only: Alex and Samuel.</p>
+          <h3 style="margin:0 0 .4rem">Ri &amp; Jo</h3>
+          <p class="hint" style="margin:0">Ages ~13 / ~11. Go-bag clothes, charged devices, comfort item, calm talk-through before winds. Kids only: Riley and Jordan.</p>
         </div>
       </div>
       <div class="cat-grid" id="catGrid"></div>`;
@@ -198,7 +198,7 @@
     root.innerHTML = `
       <div class="print-sheet">
         <h2>Storm Prep · ${esc(h.address)}, ${esc(h.city)}</h2>
-        <p class="sub">${p.done}/${p.total} ready · Alex &amp; Sam · BGE outage mindset · EXAMPLE timeline separate</p>
+        <p class="sub">${p.done}/${p.total} ready · Ri &amp; Jo · BGE outage mindset · EXAMPLE timeline separate</p>
         ${cats}
       </div>`;
   }
